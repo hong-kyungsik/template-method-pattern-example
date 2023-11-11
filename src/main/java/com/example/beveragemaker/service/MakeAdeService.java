@@ -13,7 +13,7 @@ public class MakeAdeService extends MakeBeverageService{
   public String prepareGlass() {
     return "얼음잔을 준비합니다."+
       purifierService.getIce()+"를 넣고 "+
-      purifierService.getIce()+"를 반 채웁니다.";
+      purifierService.getColdWater()+"를 반 채웁니다.";
   }
 
   @Override

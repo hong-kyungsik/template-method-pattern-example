@@ -22,5 +22,5 @@ public abstract class MakeBeverageService {
   public abstract String addGarnish();
   public String serve(){
     return "서빙합니다.";
-  };
+  }
 }
